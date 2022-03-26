@@ -5,7 +5,7 @@ class List extends Component {
     render() {
         const {users,isFirst,isLoading,err} = this.props
         return (
-            <div className="row">
+            <div className="row abc">
               {
                   err? <h2 style={{color:'red'}}>{err}</h2> :
                   isFirst ? <h2>请输入关键字搜索</h2> :
