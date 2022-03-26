@@ -12,6 +12,7 @@ export default class App extends Component {
 
 	updateAppState = stateObj => {
 		this.setState(stateObj);
+    console.log(stateObj)
 	};
 	render() {
 		return (
